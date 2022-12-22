@@ -17,7 +17,6 @@ namespace HW9new
         private void SplitText(object sender, RoutedEventArgs e)
         {
             string inTxt = TextToSplit.Text;
-
             SplittedText.ItemsSource = SplitInputedText(inTxt);
         }
 
